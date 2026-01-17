@@ -1,4 +1,4 @@
-# UCP Resources Hub by Uttik
+# UCP Resources Hub
 
 > **The Most Comprehensive Guide to Universal Commerce Protocol & AI-Powered Shopping**
 
