@@ -21,27 +21,7 @@ A comprehensive, curated collection of Universal Commerce Protocol (UCP) resourc
 - ✅ **Direct Transactions**: Complete checkout without leaving AI conversations
 - ✅ **Future-Proof**: Built on open standards for the next generation of search
 
----
 
-## 📋 Table of Contents
-
-* [What is UCP?](#what-is-ucp)
-* [Why UCP Matters for Your Business](#why-ucp-matters-for-your-business)
-* [UCP & Answer Engine Optimization](#ucp--answer-engine-optimization)
-* [Official Resources](#official-resources)
-* [Latest Announcements](#latest-announcements)
-* [Implementation Guides](#implementation-guides)
-* [SDKs & Developer Tools](#sdks--developer-tools)
-* [Platform Integrations](#platform-integrations)
-* [Learning Resources](#learning-resources)
-* [Industry News & Analysis](#industry-news--analysis)
-* [Related Protocols](#related-protocols)
-* [Companies Using UCP](#companies-using-ucp)
-* [How to Get Started](#how-to-get-started)
-* [Contributing](#contributing)
-* [About Uttik](#about-uttik)
-
----
 
 ## 🚀 What is UCP?
 
@@ -199,43 +179,6 @@ Track these metrics to measure UCP effectiveness:
 * 🐛 **[Issue Tracker](https://github.com/Universal-Commerce-Protocol/ucp/issues)** - Report bugs, request features
 * 📧 **[Waitlist](https://developers.google.com/merchant/ucp)** - Early access to UCP integration
 
----
-
-## 📢 Latest Announcements
-
-### January 2025 - Official Launch
-
-**Announced at NRF 2025 Conference (New York)**
-
-#### New Features & Integrations
-
-✨ **Business Agent**
-- Branded AI shopping assistant for retailers
-- Deploy directly on Google Search
-- Customizable with your brand voice and data
-- **Live Now:** Lowe's, Michael's, Poshmark, Reebok
-
-🎯 **Direct Offers**
-- New Google Ads format for AI Mode
-- Present exclusive discounts to high-intent shoppers
-- Personalized offers in conversational context
-
-🤖 **Gemini Enterprise for Customer Experience**
-- AI-powered customer service suite
-- Integrated shopping and support experiences
-- Built on UCP open standards
-
-📊 **Merchant Center Enhancements**
-- Dozens of new data attributes
-- Optimized for conversational discovery
-- Support for FAQs, compatible products, alternatives
-
-🔗 **Platform Integrations**
-- **Microsoft Copilot**: Updated embedded checkout
-- **PayPal**: Payment option for UCP checkout
-- **Shopify**: Central management via Agentic Storefronts
-
----
 
 ## 🛠️ Implementation Guides
 
