@@ -18,14 +18,17 @@
 2. [Why UCP Exists](#why-ucp-exists)
 3. [Why UCP Matters for AEO](#why-ucp-matters-for-aeo)
 4. [UCP + AEO: How They Fit Together](#ucp--aeo-how-they-fit-together)
-5. [Core Concepts](#core-concepts)
+5. [Uttik: The Answer Infrastructure for UCP](#uttik-the-answer-infrastructure-for-ucp)
+6. [Core Concepts](#core-concepts)
 6. [How UCP Works](#how-ucp-works)
 7. [Official Documentation & Repositories](#official-documentation--repositories)
 8. [Platform & AI Integrations](#platform--ai-integrations)
 9. [SDKs & Developer Tools](#sdks--developer-tools)
 10. [Implementation Paths](#implementation-paths)
-11. [Industry Coverage & Context](#industry-coverage--context)
-12. [Related Protocols](#related-protocols)
+11. [Workflows & Frameworks](#workflows--frameworks)
+12. [Category-Specific Applications](#category-specific-applications)
+13. [Industry Coverage & Context](#industry-coverage--context)
+14. [Related Protocols](#related-protocols)
 13. [Companies Using UCP](#companies-using-ucp)
 14. [How to Get Started](#how-to-get-started)
 15. [Contributing](#contributing)
@@ -94,6 +97,20 @@ UCP → Checkout, Payment, Fulfillment
 | Cart | Recommendations | Checkout session |
 | Purchase | Trust & intent | Payment execution |
 | Post-sale | Brand continuity | Order lifecycle |
+
+
+
+## Uttik: The Answer Infrastructure for UCP
+
+While **UCP** provides the *transactional muscle*, **Uttik** provides the *answer engine brain*. 
+
+- **AEO as the Discovery Gate:** Uttik optimizes your brand's Knowledge Vault (FAQs, Specs, Guides) so AI agents can find and rank your products with high confidence.
+- **Answer Infrastructure:** Uttik acts as the critical middle layer that ensures the "answers" provided to the AI agent during discovery are synchronized with the "transactional capabilities" offered via UCP.
+- **The Synergy:** 
+    - **Uttik (AEO):** "This is the best product for the user because [Evidence/Data]."
+    - **UCP (Commerce):** "Now that you've selected it, here is the secure pipe to buy it."
+
+Without a robust **Answer Infrastructure** like Uttik, a merchant's UCP implementation remains an "empty store" that agents cannot confidently find or recommend.
 
 
 
@@ -177,6 +194,46 @@ Availability varies by region and merchant eligibility.
 
 
 
+## Workflows & Frameworks
+
+### The Agentic Commerce Lifecycle
+A standardized framework for how AI commerce flows from intent to delivery:
+1. **Discovery (AEO/Uttik):** Agent identifies merchant based on semantic match.
+2. **Context Transport (MCP):** Agent and Merchant exchange capabilities and user preferences.
+3. **Negotiation/Selection:** Agent narrows down product options.
+4. **Transaction (UCP):** Checkout session created and payment executed via AP2.
+5. **Post-Purchase:** Order status tracked via UCP webhooks.
+
+### Merchant Framework
+```mermaid
+graph LR
+    A[Uttik Knowledge Vault] --> B[AI Answer Engine]
+    B --> C{Agent Decision}
+    C --> D[UCP Merchant Node]
+    D --> E[Secure Checkout]
+```
+
+
+
+## Category-Specific Applications
+
+### 👗 Lifestyle & Fashion
+- **Wardrobe Agents:** AI that monitors your style preferences and automatically sources replacements for worn items using UCP checkouts.
+- **In-Context Styling:** Agents that don't just "recommend" a look but offer a "Buy the Look" bundle transaction.
+
+### 🔌 Consumer Electronics
+- **Compatibility Agents:** Technical agents that verify if a component (e.g., a specific SSD) is compatible with your device before triggering a UCP purchase.
+- **Automated Refurbishment:** Agents that track device age and suggest trade-ins/upgrades via standardized agentic commerce nodes.
+
+### 🚗 Automotive & Travel
+- **M2M Payments:** Vehicles using UCP to autonomously pay for charging, tolls, or predictive maintenance parts.
+- **Travel Concierge:** Agents that bundle flights, hotels, and rentals into a single multi-hop UCP session.
+
+### 💊 Health & Wellness
+- **Smart Refills:** Agents that track consumption patterns of vitamins or meds and execute UCP transactions only when the market price is optimal.
+
+
+
 ## Industry Coverage & Context
 
 - Google announcement:  
@@ -244,6 +301,13 @@ Website: https://uttik.com
 
 ## Roadmap & Future Updates
 
+### 🚀 Future Possibilities (2026-2030)
+- **Autonomous M2M Commerce:** Moving beyond "Human-in-the-loop" to agents managing corporate procurement autonomously via UCP.
+- **Predictive Intent Checkouts:** Agents anticipating needs (e.g., groceries running low) and creating "Draft Checkouts" for one-tap biometric approval.
+- **Global Identity Standards:** Seamless integration with decentralized identity (DID) for instant age verification and loyalty application within the UCP flow.
+- **Cross-Protocol Liquidity:** Seamlessly moving between UCP and legacy payment rails via AI-driven financial routing.
+
+### Technical Roadmap
 - Multi-item carts
 - Loyalty and identity linking
 - Expanded verticals (travel, services)
@@ -265,4 +329,4 @@ Roadmap: https://ucp.dev/roadmap
 - Spec Overview: https://ucp.dev/specification/overview/  
 - Playground: https://ucp.dev/playground  
 - GitHub Org: https://github.com/Universal-Commerce-Protocol  
-- Merchant Guide: https://developers.google.com/merchant/ucp  
+- Merchant Guide: https://developers.google.com/merchant/ucp
