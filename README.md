@@ -5,11 +5,11 @@
 [![UCP](https://img.shields.io/badge/Protocol-UCP-green)](https://ucp.dev)
 [![Powered by Uttik](https://img.shields.io/badge/Powered%20by-Uttik-blue)](https://uttik.com)
 [![License](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](LICENSE)
-[![Last Updated](https://img.shields.io/badge/Updated-January%202025-brightgreen)](https://github.com/uttik/ucp-resources-hub)
+[![Last Updated](https://img.shields.io/badge/Updated-January%202026-brightgreen)](https://github.com/uttik/ucp-resources-hub)
 
 A comprehensive, curated collection of Universal Commerce Protocol (UCP) resources, tools, and implementation guides — brought to you by **[Uttik](https://uttik.com)**, the AI-powered Answer Engine Optimization platform.
 
-**Latest News:** UCP was officially launched on January 11-12, 2025 at the National Retail Federation (NRF) conference in New York.
+**Latest News:** UCP was officially launched on January 11, 2026 at the National Retail Federation (NRF) conference in New York City.
 
 
 
@@ -19,7 +19,7 @@ A comprehensive, curated collection of Universal Commerce Protocol (UCP) resourc
 * [Why UCP Matters](#-why-ucp-matters)
 * [UCP & Answer Engine Optimization](#-ucp--answer-engine-optimization)
 * [Official Resources](#-official-resources)
-* [Key Announcements](#-key-announcements)
+* [Latest Announcements](#-latest-announcements)
 * [Implementations & SDKs](#-implementations--sdks)
 * [Platform Integrations](#-platform-integrations)
 * [Developer Tools](#-developer-tools)
@@ -31,7 +31,6 @@ A comprehensive, curated collection of Universal Commerce Protocol (UCP) resourc
 * [How to Get Started](#-how-to-get-started)
 * [Contributing](#-contributing)
 * [About Uttik](#-about-uttik)
-* [Roadmap](#-roadmap)
 * [License](#-license)
 
 
@@ -42,10 +41,10 @@ A comprehensive, curated collection of Universal Commerce Protocol (UCP) resourc
 
 ### Key Features
 
-- **Transport Agnostic**: Works via REST APIs, MCP, A2A, or Agent2Agent protocols
+- **Transport Agnostic**: Works via REST APIs, MCP (Model Context Protocol), A2A (Agent2Agent), or JSON-RPC
 - **Composable Architecture**: Modular capabilities (Checkout, Orders, Catalog) with independent versioning
 - **Merchant-First**: Retailers remain Merchant of Record with full customer data ownership
-- **Payment Flexible**: Compatible with AP2 for secure agentic payments with cryptographic consent
+- **Payment Flexible**: Compatible with AP2 (Agent Payments Protocol) for secure agentic payments
 - **Open & Extensible**: Community-driven with Apache 2.0 license
 
 ### What Problem Does UCP Solve?
@@ -65,12 +64,13 @@ With UCP:
 - ✅ Standardized discovery, checkout, and fulfillment
 - ✅ Future AI platforms automatically compatible
 
-### Official Links
+### Official Information
 
 - **Website:** https://ucp.dev
 - **Specification:** https://ucp.dev/specification/overview/
 - **GitHub:** https://github.com/Universal-Commerce-Protocol
 - **License:** Apache 2.0
+- **Version:** 2026-01-11
 
 
 
@@ -85,22 +85,28 @@ User searches → Clicks link → Browses site → Adds to cart → Checkout
 
 **Agentic Commerce:**
 ```
-User asks AI → AI discovers → AI presents → AI completes purchase
+User asks AI → AI discovers product → AI presents options → AI completes purchase
 ```
 
-### Market Impact
+### Market Context (Verified Data)
 
-According to **Salesforce**: AI and agents drove approximately **20% of retail sales** (~$272 billion globally) during the 2025 holiday season.
+According to **Salesforce Cyber Week 2025 Report** (November 25 - December 1, 2025):
+- **$336.6 billion** in global sales
+- **$67 billion** (20%) influenced by AI agents
+- AI drove personalized recommendations and conversational service
+- Retailers with agents saw **32% faster** sales growth
+
+Source: [Salesforce Cyber Week 2025 Results](https://www.salesforce.com/news/press-releases/2025/12/05/cyber-week-ai-agents-sales/)
 
 ### Business Benefits
 
 | Benefit | Impact |
 ||--|
 | **Expanded Reach** | Access high-intent shoppers in AI Mode, Gemini, ChatGPT |
-| **Reduced Cart Abandonment** | Frictionless checkout within conversations |
+| **Reduced Friction** | Frictionless checkout within conversations |
 | **Lower Integration Costs** | One implementation vs. multiple custom builds |
-| **Customer Data Ownership** | Remain Merchant of Record, keep all customer relationships |
-| **Dynamic Personalization** | Real-time pricing, loyalty, and offers in AI context |
+| **Data Ownership** | Remain Merchant of Record, keep customer relationships |
+| **Dynamic Commerce** | Real-time pricing, loyalty, offers in AI context |
 
 
 
@@ -141,17 +147,19 @@ According to **Salesforce**: AI and agents drove approximately **20% of retail s
 | **Conversational Purchase** | Native checkout in AI conversations |
 | **Trust Signals** | Cryptographic payment verification via AP2 |
 
+**Learn more:** [Uttik.com](https://uttik.com)
+
 
 
 ## 📚 Official Resources
 
 ### Core Documentation
 
-* 🌐 **[Official Website](https://ucp.dev/)** - Protocol overview, core concepts, and design principles
+* 🌐 **[Official Website](https://ucp.dev/)** - Protocol overview and design principles
 * 📖 **[Complete Specification](https://ucp.dev/specification/overview/)** - Technical specification and architecture
 * 📋 **[Schema Reference](https://ucp.dev/specification/reference/)** - API schemas and data models
-* 🎮 **[Interactive Playground](https://ucp.dev/playground)** - Test UCP implementations live
-* 🗺️ **[Product Roadmap](https://ucp.dev/roadmap)** - Future development plans
+* 🎮 **[Interactive Playground](https://ucp.dev/playground)** - Test UCP implementations
+* 🗺️ **[Product Roadmap](https://ucp.dev/documentation/roadmap/)** - Future development plans
 
 ### GitHub Repositories
 
@@ -169,48 +177,64 @@ According to **Salesforce**: AI and agents drove approximately **20% of retail s
 
 
 
-## 📢 Key Announcements
+## 📢 Latest Announcements
 
-### January 2025 - Official Launch at NRF
+### January 11-12, 2026 - Official Launch at NRF
 
-**Announced at National Retail Federation Conference (New York)**
+**Announced at National Retail Federation Conference (New York City)**
 
-#### Major Features Launched
+#### Universal Commerce Protocol Launch
 
-✨ **Business Agent**
+✨ **UCP Launched** (January 11, 2026)
+- Open-source protocol for agentic commerce
+- Co-developed by Google with Shopify, Etsy, Wayfair, Target, Walmart
+- Endorsed by 20+ partners across retail and payments
+- Version 2026-01-11 specification released
+
+**Official Announcement:** [Google Blog - New Tech and Tools for Retailers](https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/)
+
+#### Business Agent Launch
+
+🤖 **Business Agent** (Launched January 12, 2026)
 - Branded AI shopping assistant for retailers
 - Deploy directly on Google Search
-- Customizable with your brand voice and data
-- **Live Now:** Lowe's, Michael's, Poshmark, Reebok
+- Virtual sales associate answering product questions in brand voice
 
-🎯 **Direct Offers**
+**Live Now with:**
+- Lowe's
+- Michael's
+- Poshmark
+- Reebok
+- Additional retailers
+
+**Source:** [Search Engine Land - UCP Launch](https://searchengineland.com/google-universal-commerce-protocol-467290)
+
+#### Additional Features
+
+🎯 **Direct Offers** (Pilot Program)
 - New Google Ads format for AI Mode
 - Present exclusive discounts to high-intent shoppers
-- Personalized offers in conversational context
-
-🤖 **Gemini Enterprise for Customer Experience**
-- AI-powered customer service suite
-- Integrated shopping and support experiences
-- Built on UCP open standards
+- Example: 20% off rug purchases directly in AI Mode
 
 📊 **Merchant Center Enhancements**
 - Dozens of new data attributes
 - Optimized for conversational discovery
-- Support for FAQs, compatible products, alternatives
+- Beyond keywords: FAQs, compatible products, alternatives
+- Rolling out to select retailers first
 
 🔗 **Platform Integrations**
-- **Microsoft Copilot**: Updated embedded checkout
-- **PayPal**: Payment option for UCP checkout
-- **Shopify**: Central management via Agentic Storefronts
+- **Shopify:** Agentic Storefronts launched
+- **Microsoft Copilot:** Updated embedded checkout
+- **Salesforce:** UCP support announced January 14, 2026
+- **PayPal:** Payment option integration announced
 
-#### Official Announcements
+#### Official Sources
 
-* **Google:** [New Tech and Tools for Retailers in Agentic Shopping Era](https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/)
-* **Google:** [Under the Hood: Universal Commerce Protocol](https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/)
-* **Google CEO:** [The AI Platform Shift - Sundar Pichai's NRF Remarks](https://blog.google/company-news/inside-google/message-ceo/nrf-2026-remarks/)
-* **Shopify:** [The Agentic Commerce Platform](https://www.shopify.com/news/ai-commerce-at-scale)
-* **Shopify Engineering:** [Building the Universal Commerce Protocol](https://shopify.engineering/ucp)
-* **PayPal:** [From Search to Checkout: PayPal Supports Trusted AI Checkout](https://newsroom.paypal-corp.com/2025-01-11-From-Search-to-Checkout-PayPal-Supports-Trusted-AI-Checkout-with-Google)
+* **Google:** [Under the Hood: Universal Commerce Protocol](https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/) (January 11, 2026)
+* **Shopify:** [The Agentic Commerce Platform](https://www.shopify.com/news/ai-commerce-at-scale) (January 11, 2026)
+* **Shopify Engineering:** [Building UCP](https://shopify.engineering/ucp) (January 2026)
+* **PayPal:** [From Search to Checkout](https://newsroom.paypal-corp.com/2025-01-11-From-Search-to-Checkout-PayPal-Supports-Trusted-AI-Checkout-with-Google) (January 11, 2026)
+* **Salesforce:** [UCP Support Announcement](https://www.salesforce.com/news/stories/google-universal-commerce-protocol-support-announcement/) (January 14, 2026)
 
 
 
@@ -261,13 +285,6 @@ checkout = Checkout(
 - Payment processing
 - Order lifecycle webhooks
 
-**Quick Start:**
-```bash
-cd rest/python/server
-pip install -r requirements.txt --break-system-packages
-python main.py
-```
-
 #### Node.js/Hono Server (Official)
 **Location:** [samples/rest/nodejs](https://github.com/Universal-Commerce-Protocol/samples/tree/main/rest/nodejs)
 
@@ -277,35 +294,25 @@ python main.py
 - Zod schema validation
 - Full UCP compliance
 
-**Quick Start:**
-```bash
-cd rest/nodejs
-npm install
-npm run dev
-```
-
 ### Testing Tools
 
 #### Conformance Tests
 **Repository:** [Universal-Commerce-Protocol/conformance](https://github.com/Universal-Commerce-Protocol/conformance)
 
-Validate your implementation:
-```bash
-python conformance_test.py --server http://localhost:8000
-```
+Validate your implementation against the specification.
 
 #### MCP Inspector
-Debug your server:
+Debug MCP/UCP integrations:
 ```bash
-npx @modelcontextprotocol/inspector node /path/to/server.js
+npx @modelcontextprotocol/inspector
 ```
 
 ### Community Tools
 
 * **[UCP Client Python](https://github.com/Upsonic/ucp-client-python)** - Python client library
-* **[UCP Agent Demo](https://github.com/Upsonic/ucp-agent-demo)** - Shopping assistant powered by Upsonic AI
-* **[UCP Demo Playground](https://github.com/Upsonic/ucp-demo-playground)** - Community-created playground
-* **[UCP Mockup Server](https://github.com/Upsonic/ucp-mockup-server)** - Local testing server
+* **[UCP Agent Demo](https://github.com/Upsonic/ucp-agent-demo)** - Shopping assistant demo
+* **[UCP Demo Playground](https://github.com/Upsonic/ucp-demo-playground)** - Community testing tool
+* **[UCP Mockup Server](https://github.com/Upsonic/ucp-mockup-server)** - Local development server
 
 
 
@@ -314,28 +321,27 @@ npx @modelcontextprotocol/inspector node /path/to/server.js
 ### Google Ecosystem
 
 #### AI Mode in Google Search
-- **Status:** Rolling out to U.S. merchants
-- **Features:** Native checkout, Google Pay, PayPal support
+- **Status:** Rolling out to eligible U.S. retailers
+- **Features:** Native checkout, Google Pay, PayPal support (coming)
 - **Requirements:** Active Merchant Center, UCP integration
 - **Guide:** [Google UCP Merchant Guide](https://developers.google.com/merchant/ucp)
 
 #### Gemini App
-- **Status:** Web launching, app following
+- **Status:** Web launching now, mobile app coming
 - **Features:** Conversational shopping, real-time inventory
-- **Integration:** Same as AI Mode
-- **Guide:** [Google Integration Guide](https://developers.google.com/merchant/ucp/guides)
+- **Integration:** Same UCP specification as AI Mode
 
 #### Business Agent
-- **Status:** Live for select retailers
-- **Early Adopters:** Lowe's, Michael's, Poshmark, Reebok
+- **Status:** Live since January 12, 2026
+- **Live Retailers:** Lowe's, Michael's, Poshmark, Reebok, others
 - **Setup:** Enable in Merchant Center
-- **Features:** Brand voice customization, training data integration
+- **Features:** Brand voice customization, data training (coming)
 
 ### Shopify Integration
 
-**Agentic Storefronts** - Central Dashboard
-- Manage all AI channel integrations
-- ChatGPT, Google AI Mode, Microsoft Copilot
+**Agentic Storefronts** (Launched January 11, 2026)
+- Central dashboard for all AI integrations
+- Supports ChatGPT, Google AI Mode, Microsoft Copilot
 - Universal Cart for multi-merchant shopping
 - Real-time sync across platforms
 
@@ -348,10 +354,19 @@ npx @modelcontextprotocol/inspector node /path/to/server.js
 
 ### Microsoft Copilot
 
-**Copilot Checkout**
+**Copilot Checkout** (Updated January 2026)
 - Embedded shopping experience
 - Powered by Shopify + UCP
-- Available now for Shopify merchants
+- Available for Shopify merchants
+
+### Salesforce Commerce Cloud
+
+**UCP Support** (Announced January 14, 2026)
+- Native UCP integration in Agentforce Commerce
+- Connect to Google AI surfaces
+- Maintain merchant of record status
+
+**Announcement:** [Salesforce UCP Support](https://www.salesforce.com/news/stories/google-universal-commerce-protocol-support-announcement/)
 
 ### ChatGPT (via Shopify)
 
@@ -374,7 +389,6 @@ npx @modelcontextprotocol/inspector node /path/to/server.js
 
 * **[MCP Inspector](https://github.com/modelcontextprotocol/inspector)** - Debug MCP/UCP integrations
 * **[UCP Demo Playground](https://github.com/Upsonic/ucp-demo-playground)** - Community testing tool
-* **[UCP Mockup Server](https://github.com/Upsonic/ucp-mockup-server)** - Local development server
 
 
 
@@ -383,75 +397,75 @@ npx @modelcontextprotocol/inspector node /path/to/server.js
 ### Official Documentation
 
 #### Google Resources
+
 * **[Under the Hood: Universal Commerce Protocol](https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/)** ⭐ Must Read
-  * Published: January 2025
+  * Published: January 11, 2026
   * Authors: Amit Handa (Director of Engineering), Ashish Gupta (VP/GM Merchant Shopping)
-  * Deep dive into architecture, capabilities, implementation
+  * Deep dive into architecture and implementation
 
 * **[New Tech and Tools for Retailers](https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/)**
   * Complete launch announcement
   * Business Agent, Direct Offers, Merchant Center updates
-  * Strategic vision for agentic commerce
 
-* **[The AI Platform Shift](https://blog.google/company-news/inside-google/message-ceo/nrf-2026-remarks/)**
-  * Sundar Pichai's NRF 2025 remarks
-  * CEO perspective on retail transformation
+* **[Google UCP Merchant Guide](https://developers.google.com/merchant/ucp)**
+  * Integration guide for merchants
+  * Requirements and setup instructions
 
 #### Shopify Resources
+
 * **[Building the Universal Commerce Protocol](https://shopify.engineering/ucp)** ⭐ Technical Deep Dive
   * Engineering team perspective
   * Composable architecture explained
   * Capability negotiation patterns
-  * Real implementation examples
 
 * **[The Agentic Commerce Platform](https://www.shopify.com/news/ai-commerce-at-scale)**
-  * Official Shopify announcement
+  * Official launch announcement
   * Multi-platform strategy
-  * Integration roadmap
 
 ### Industry Analysis
 
-#### For E-commerce Teams
-* **[Admetrics: What is Google UCP? Complete Guide for DTC Brands](https://www.admetrics.io/blog/what-is-google-ucp)**
+* **[Admetrics: What is Google UCP?](https://www.admetrics.io/blog/what-is-google-ucp)**
   * Marketing-focused overview
-  * Measurement and analytics considerations
   * Preparation checklist for DTC brands
 
-* **[ALM Corp: Universal Commerce Protocol - Complete 2026 Guide](https://almcorp.com/blog/universal-commerce-protocol-agentic-commerce-guide-2026/)**
+* **[ALM Corp: Universal Commerce Protocol Guide](https://almcorp.com/blog/universal-commerce-protocol-agentic-commerce-guide-2026/)**
   * Comprehensive implementation guide
-  * Market statistics and analysis
   * Technical requirements and best practices
 
 ### Partner Announcements
 
 **Payment Providers:**
 * [PayPal Supports Trusted AI Checkout](https://newsroom.paypal-corp.com/2025-01-11-From-Search-to-Checkout-PayPal-Supports-Trusted-AI-Checkout-with-Google)
-* [Ant International Partnership](https://financialit.net/news/e-commerce/ant-international-partners-google-universal-commerce-protocol-rollout)
 
 **Retailers:**
 * [Wayfair Participates in UCP](https://www.pymnts.com/artificial-intelligence-2/2026/wayfair-participates-in-googles-new-standard-for-agentic-commerce/)
+
+**Commerce Platforms:**
+* [Salesforce Announces UCP Support](https://www.salesforce.com/news/stories/google-universal-commerce-protocol-support-announcement/)
 
 
 
 ## 📰 Industry News & Analysis
 
-### Major Coverage (January 2025)
+### Major Coverage (January 2026)
 
 **Technology Press:**
-* [TechCrunch - Google Announces Protocol for AI Commerce](https://techcrunch.com/2026/01/11/google-announces-a-new-protocol-to-facilitate-commerce-using-ai-agents/)
-* [Search Engine Land - Universal Commerce Protocol Launch](https://searchengineland.com/google-universal-commerce-protocol-467290)
-* [Computer Weekly - Google Banks on UCP](https://www.computerweekly.com/blog/Open-Source-Insider/Google-banks-on-Universal-Commerce-Protocol-UCP-for-agentic-commerce)
-* [Heise Online - New Standard for Online Shopping](https://www.heise.de/en/news/Universal-Commerce-Protocol-New-Standard-for-Online-Shopping-11138844.html)
+* [TechCrunch - Google Announces Protocol for AI Commerce](https://techcrunch.com/2026/01/11/google-announces-a-new-protocol-to-facilitate-commerce-using-ai-agents/) (January 11, 2026)
+* [Search Engine Land - Universal Commerce Protocol Launch](https://searchengineland.com/google-universal-commerce-protocol-467290) (January 11, 2026)
+* [Search Engine Journal - AI Mode Checkout Protocol](https://www.searchenginejournal.com/google-announces-ai-mode-checkout-protocol-business-agent/564764/) (January 12, 2026)
+* [Engadget - Google's Commerce Framework](https://www.engadget.com/big-tech/googles-new-commerce-framework-cranks-up-the-heat-on-agentic-shopping-212433122.html) (January 11, 2026)
 
 **Financial & Business:**
-* [American Banker - Google, Shopify Unveil Agentic Protocol](https://www.americanbanker.com/payments/news/google-shopify-unveil-new-agentic-protocol-for-retailers)
-* [Fintool News - Google Launches UCP](https://fintool.com/news/google-ucp-agentic-commerce-protocol)
-* [Financial IT - Ant International Partnership](https://financialit.net/news/e-commerce/ant-international-partners-google-universal-commerce-protocol-rollout)
+* [American Banker - Google, Shopify Unveil Agentic Protocol](https://www.americanbanker.com/payments/news/google-shopify-unveil-new-agentic-protocol-for-retailers) (January 11, 2026)
+* [Chain Store Age - Google Launches Agentic Commerce Standard](https://chainstoreage.com/google-launches-new-agentic-commerce-standard) (January 13, 2026)
 
-**Marketing & Retail:**
-* [CIO.com - UCP for Shopping Bots and CIOs](https://www.cio.com/article/4116077/googles-universal-commerce-protocol-aims-to-simplify-life-for-shopping-bots-and-cios.html)
-* [SEO Roundtable - Agentic Commerce Protocol](https://www.seroundtable.com/google-ai-mode-direct-offers-ads-ucp-40738.html)
-* [PYMNTS - Wayfair and UCP](https://www.pymnts.com/artificial-intelligence-2/2026/wayfair-participates-in-googles-new-standard-for-agentic-commerce/)
+**Retail & CX:**
+* [CX Network - Google Launches Agentic Commerce Suite](https://www.cxnetwork.com/artificial-intelligence/news/google-agentic-commerce-ai-shopping) (January 13, 2026)
+* [Constellation Research - Google Agentic Commerce Tools](https://www.constellationr.com/blog-news/insights/google-launches-agentic-commerce-tools-universal-commerce-protocol-gemini) (January 11, 2026)
+
+**Analysis:**
+* [Lengow - Google's Universal Commerce Protocol](https://blog.lengow.com/googles-universal-commerce-protocol-the-end-of-e-commerce-as-we-know-it/) (January 15, 2026)
+* [H2S Media - UCP Protocol Lets AI Shop for You](https://www.how2shout.com/news/google-universal-commerce-protocol-ucp-agentic-shopping-2026.html) (January 11, 2026)
 
 
 
@@ -481,15 +495,15 @@ npx @modelcontextprotocol/inspector node /path/to/server.js
 
 ### Business Applications
 
-**Virtual Sales Associates**
-- Branded Business Agents on Google Search
+**Virtual Sales Associates (Business Agent)**
 - Answer product questions in brand voice
 - High-intent customer engagement
+- Deployed on Google Search
 
 **Dynamic Pricing**
 - Real-time inventory updates
 - Context-aware pricing
-- Promotional offers
+- Promotional offers via Direct Offers
 
 **Loyalty Integration**
 - Apply rewards during checkout
@@ -499,7 +513,7 @@ npx @modelcontextprotocol/inspector node /path/to/server.js
 **Cross-Platform Commerce**
 - Single integration for multiple AI surfaces
 - Consistent experience across platforms
-- Unified analytics and reporting
+- Unified analytics
 
 
 
@@ -514,12 +528,6 @@ npx @modelcontextprotocol/inspector node /path/to/server.js
 **UCP Integration:** Built-in MCP transport support  
 **Use case:** AI agents communicate with UCP merchants via MCP
 
-```
-AI Agent → MCP Transport → UCP Merchant Server
-```
-
-**Repository:** [GitHub - MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk)
-
 #### Agent Payments Protocol (AP2)
 **Website:** [developers.google.com/wallet/agent-payments](https://developers.google.com/wallet/agent-payments)
 
@@ -529,7 +537,6 @@ AI Agent → MCP Transport → UCP Merchant Server
 - Cryptographic proof of user authorization
 - Payment mandate support
 - Verifiable credentials
-- Open wallet ecosystem
 
 #### Agent2Agent (A2A)
 **Website:** [agent2agent.dev](https://agent2agent.dev/)
@@ -545,20 +552,9 @@ AI Agent → MCP Transport → UCP Merchant Server
 
 **Developed by:** OpenAI with Stripe  
 **Status:** Alternative standard  
-**Focus:** Tighter ChatGPT integration, Stripe-centric payments
+**Focus:** ChatGPT integration, Stripe-centric payments
 
-**UCP vs. ACP Comparison:**
-
-| Aspect | UCP | ACP |
-|--|--|--|
-| **Philosophy** | Broad coalition, vendor-neutral | ChatGPT-first, faster to market |
-| **Co-Developers** | Google, Shopify, Etsy, Wayfair, Target, Walmart | OpenAI, Stripe |
-| **Payments** | Flexible payment handlers | Stripe-centric |
-| **Adoption** | 20+ partners across ecosystem | OpenAI/Stripe partnership |
-| **Integration** | REST, MCP, A2A support | Optimized for ChatGPT |
-| **Open Source** | Apache 2.0, fully open | Partially open |
-
-**Future:** Protocols may interoperate as standards mature. Some retailers may support both.
+**Note:** UCP and ACP represent different approaches. UCP emphasizes broad coalition and vendor neutrality. Some retailers may support both protocols.
 
 
 
@@ -575,53 +571,37 @@ AI Agent → MCP Transport → UCP Merchant Server
 | **Target** | Co-Developer, Retail | [target.com](https://target.com) |
 | **Walmart** | Co-Developer, Scale Operations | [walmart.com](https://walmart.com) |
 
-### Payment Providers
+### Payment Providers (Endorsed UCP)
 
 | Provider | Specialty | Website |
 |-|--||
 | **Adyen** | Global payment platform | [adyen.com](https://adyen.com) |
 | **American Express** | Credit card services | [americanexpress.com](https://americanexpress.com) |
-| **Ant International** | Global fintech, Alipay | [antgroup.com](https://antgroup.com) |
 | **Mastercard** | Payment network | [mastercard.com](https://mastercard.com) |
 | **PayPal** | Digital payments | [paypal.com](https://paypal.com) |
 | **Stripe** | Payment infrastructure | [stripe.com](https://stripe.com) |
 | **Visa** | Global payments network | [visa.com](https://visa.com) |
-| **Worldpay** | Payment processing | [worldpay.com](https://worldpay.com) |
 
-### Retailers & Marketplaces
+### Retailers & Marketplaces (Endorsed UCP)
 
 **Consumer Electronics:**
 - [Best Buy](https://bestbuy.com)
 
-**Fashion & Apparel:**
-- [Gap](https://gap.com)
-- [Zalando](https://zalando.com) (Europe)
-
 **Home & Garden:**
-- [Lowe's](https://lowes.com) - Business Agent Live
+- [Lowe's](https://lowes.com) - Business Agent Live (Jan 12, 2026)
 - [The Home Depot](https://homedepot.com)
 
 **Department Stores:**
 - [Macy's](https://macys.com)
-- [Target](https://target.com)
-
-**Beauty & Personal Care:**
-- [Sephora](https://sephora.com)
-- [Ulta](https://ulta.com)
 
 **Specialty:**
-- [Chewy](https://chewy.com) - Pet supplies
-- [Michael's](https://michaels.com) - Crafts (Business Agent Live)
-- [Poshmark](https://poshmark.com) - Resale (Business Agent Live)
-- [Reebok](https://reebok.com) - Sportswear (Business Agent Live)
-
-**Grocery:**
-- [Carrefour](https://carrefour.com)
-- [Kroger](https://kroger.com)
+- [Michael's](https://michaels.com) - Business Agent Live (Jan 12, 2026)
+- [Poshmark](https://poshmark.com) - Business Agent Live (Jan 12, 2026)
+- [Reebok](https://reebok.com) - Business Agent Live (Jan 12, 2026)
 
 **International:**
 - [Flipkart](https://flipkart.com) - India
-- [Shopee](https://shopee.com) - Southeast Asia
+- [Zalando](https://zalando.com) - Europe
 
 ### Technology Partners
 
@@ -629,15 +609,15 @@ AI Agent → MCP Transport → UCP Merchant Server
 ||-||
 | **Microsoft** | Copilot embedded checkout | [microsoft.com](https://microsoft.com) |
 | **OpenAI** | ChatGPT via Shopify | [openai.com](https://openai.com) |
+| **Salesforce** | Agentforce Commerce (Jan 14, 2026) | [salesforce.com](https://salesforce.com) |
 
 ### Ecosystem Statistics
 
-- **20+** Official endorsers
-- **Trillions** in represented commerce volume
 - **6** Co-developers
-- **8** Payment providers
-- **13+** Major retailers
-- **Multiple** AI surfaces supported
+- **20+** Official endorsers
+- **6+** Payment providers
+- **10+** Major retailers
+- **Multiple** AI surfaces supported (Google, Microsoft, OpenAI, Salesforce)
 
 
 
@@ -649,9 +629,9 @@ AI Agent → MCP Transport → UCP Merchant Server
 
 **Technical Requirements:**
 - ✅ E-commerce backend with API access
-- ✅ Product catalog (existing feeds work)
+- ✅ Product catalog
 - ✅ Payment processor integration
-- ✅ Development resources (moderate backend skills)
+- ✅ Development resources
 
 **Business Requirements:**
 - ✅ Google Merchant Center account (for Google integration)
@@ -672,24 +652,12 @@ AI Agent → MCP Transport → UCP Merchant Server
 - Direct connection to AI surfaces
 - **Best for:** Custom platforms
 
-**Option C: Hybrid Approach**
-- Use Shopify Catalog (no store required)
-- Custom UCP implementation
-- **Best for:** Non-Shopify merchants wanting Shopify infrastructure
+**Option C: Salesforce Commerce Cloud**
+- Native UCP support in Agentforce Commerce
+- Connect to Google AI surfaces
+- **Best for:** Salesforce customers
 
 #### Step 3: Implementation
-
-**Quick Start with Python:**
-```bash
-# Clone Python SDK
-git clone https://github.com/Universal-Commerce-Protocol/python-sdk.git
-
-# Or run sample server
-git clone https://github.com/Universal-Commerce-Protocol/samples.git
-cd samples/rest/python/server
-pip install -r requirements.txt --break-system-packages
-python main.py
-```
 
 **Core Capabilities to Implement:**
 1. Checkout session creation
@@ -700,7 +668,6 @@ python main.py
 **Test Your Implementation:**
 - Visit [UCP Playground](https://ucp.dev/playground)
 - Run [Conformance Tests](https://github.com/Universal-Commerce-Protocol/conformance)
-- Validate responses
 
 #### Step 4: Go Live
 
@@ -735,13 +702,6 @@ def create_checkout(items, buyer_email):
     return checkout
 ```
 
-#### Development Workflow
-
-1. **Local Development** - Implement UCP endpoints
-2. **Testing** - Use UCP Playground and Conformance Suite
-3. **Staging** - Test in controlled environment
-4. **Production** - Deploy to live AI surfaces
-
 ### For AEO Practitioners
 
 #### Integrate UCP with AEO Strategy
@@ -764,6 +724,8 @@ Conversion: Merchant Backend
 2. **Implement UCP** (Commerce layer)
 3. **Measure & Optimize** (Track AI surface conversions)
 
+**Contact [Uttik](https://uttik.com)** for AEO + UCP strategy consultation.
+
 
 
 ## 🤝 Contributing
@@ -785,14 +747,12 @@ We welcome contributions from the community! This repository is maintained by **
 - Real case studies
 - Working tools and utilities
 - News articles with publication dates
-- Video tutorials
 
 ❌ **Avoid:**
 - Promotional content without educational value
 - Broken or outdated links
 - Duplicate resources
 - Unverified claims
-- Speculative content
 
 **See:** [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines
 
@@ -806,7 +766,22 @@ We welcome contributions from the community! This repository is maintained by **
 
 As pioneers in **Answer Engine Optimization**, we recognized that **discovery is only half the equation**. While [Uttik](https://uttik.com) helps you get found by AI engines, **UCP enables you to convert those discoveries into transactions**.
 
+### [Uttik's](https://uttik.com) Services
 
+🎯 **Answer Engine Optimization (AEO)**
+- Content optimization for AI search engines
+- Structured data implementation
+- Conversational query optimization
+
+📊 **Performance Tracking**
+- AI surface impressions
+- Query performance analytics
+- Competitive AI presence monitoring
+
+🛠️ **Technical Implementation**
+- Schema markup
+- Semantic HTML
+- API integrations
 
 ### How [Uttik](https://uttik.com) + UCP Work Together
 
@@ -824,14 +799,8 @@ Interested in optimizing your business for AI-powered discovery and commerce?
 
 - 🌐 **Website:** [uttik.com](https://uttik.com)
 - 📧 **Contact:** [Contact form](https://uttik.com/contact)
-- 💼 **LinkedIn:** [Follow Uttik](https://linkedin.com/company/uttik)
+- 💼 **Services:** [AEO Platform](https://uttik.com/services)
 
-
-
-
-## 🗺️ Roadmap
-
-### Official UCP Roadmap https://ucp.dev/documentation/roadmap/
 
 
 ## 📜 License
@@ -851,54 +820,29 @@ UCP itself is licensed under **Apache License 2.0**.
 
 **Official Specification:** [GitHub - UCP License](https://github.com/Universal-Commerce-Protocol/ucp/blob/main/LICENSE)
 
-### Trademarks
-
-- "Universal Commerce Protocol" and "UCP" are trademarks of their respective owners
-- Product names and company logos belong to their respective companies
-- [Uttik](https://uttik.com) and the Uttik logo are trademarks of Uttik
-
-
-
-## 🙏 Acknowledgments
-
-**Created and maintained by:** **[Uttik](https://uttik.com)**  
-**Community Contributors:** [See all contributors](https://github.com/uttik/ucp-resources-hub/graphs/contributors)
-
-**Special thanks to:**
-- Google team for developing UCP
-- Shopify engineering for detailed documentation
-- All 20+ partner companies advancing agentic commerce
-- Open source community for tools and resources
-- Community contributors for improvements
-
-
-
-## 📞 Get Help
-
-### Technical Support
-
-- 💬 [GitHub Discussions](https://github.com/Universal-Commerce-Protocol/ucp/discussions) - Community Q&A
-- 🐛 [Report Issues](https://github.com/Universal-Commerce-Protocol/ucp/issues) - UCP bugs
-- 📧 [Google Merchant Support](https://support.google.com/merchants) - Integration help
-
-### Business & Strategy
-
-- 🎯 [Contact Uttik](https://uttik.com/contact) - AEO + UCP strategy
-- 📊 [Schedule Consultation](https://uttik.com/demo) - Implementation guidance
-- 💼 [Partner Network](https://uttik.com/partners) - Certified integrators
-
 
 
 ## 📊 Statistics & Impact
 
-- **20+** Global partners endorsing UCP
-- **Trillions** of dollars in represented commerce volume
-- **January 2025** Official launch at NRF conference
-- **6** Co-developer companies
-- **8** Payment providers
-- **13+** Major retailers
-- **Multiple** AI surfaces supported (Google, Microsoft, OpenAI)
-- **20%** of retail sales driven by AI during 2025 holiday season (~$272B globally)
+### Verified Data (as of January 2026)
+
+**Launch:**
+- **Announced:** January 11, 2026
+- **Business Agent Launched:** January 12, 2026
+- **Location:** NRF Conference, New York City
+
+**Ecosystem:**
+- **6** Co-developers
+- **20+** Endorsers across retail and payments
+- **4** Live Business Agent retailers (Lowe's, Michael's, Poshmark, Reebok)
+- **Multiple** AI surfaces (Google, Microsoft, OpenAI, Salesforce)
+
+**Market Context (Cyber Week 2025):**
+- **$336.6 billion** global sales (November 25 - December 1, 2025)
+- **$67 billion** (20%) influenced by AI agents
+- Retailers with agents: **32% faster** sales growth
+
+Source: [Salesforce Cyber Week 2025](https://www.salesforce.com/news/press-releases/2025/12/05/cyber-week-ai-agents-sales/)
 
 
 
@@ -924,5 +868,7 @@ UCP itself is licensed under **Apache License 2.0**.
 Made with ❤️ by **[Uttik](https://uttik.com)** | Empowering businesses in the age of AI-powered commerce
 
 [Report an Issue](https://github.com/uttik/ucp-resources-hub/issues) • [Suggest an Addition](https://github.com/uttik/ucp-resources-hub/issues/new) • **[Uttik.com](https://uttik.com)**
+
+**Last Updated:** January 17, 2026
 
 </div>
